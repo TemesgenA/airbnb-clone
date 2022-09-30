@@ -1,6 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap");
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', 'sans-serif';
+}
 .App {
   box-sizing: border-box;
-  font-family: sans-serif;
+
 }
 .nav {
   display: flex;
@@ -19,10 +26,21 @@
 
 .hero {
   margin-left: 36px;
+  font-family: 'Poppins';
+  font-style: normal;
 }
+
 .hero-image {
   height: 232px;
   width: 396px;
   margin-left: 41px;
   margin-top: 26px;
+}
+
+.hero-heading {
+  margin-bottom: 0;
+}
+
+.hero-content {
+  margin-top: 0;
 }
