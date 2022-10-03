@@ -5,10 +5,12 @@ body {
   box-sizing: border-box;
   font-family: 'Poppins', 'sans-serif';
 }
+
 .App {
   box-sizing: border-box;
 
 }
+
 .nav {
   display: flex;
   width: 550px;
@@ -28,6 +30,7 @@ body {
   margin-left: 36px;
   font-family: 'Poppins';
   font-style: normal;
+  width: 550px;
 }
 
 .hero-image {
@@ -43,4 +46,30 @@ body {
 
 .hero-content {
   margin-top: 0;
+}
+
+.Card {
+  margin-left: 37px;
+  margin-top: 49px;
+}
+
+.Card-image {
+  width: 176px;
+  height: 235px;
+}
+
+.Card-details {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.all-cards {
+  display: flex;
+  width: auto;
+  width: 550px;
+  overflow-x: scroll;
 }
