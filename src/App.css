@@ -30,6 +30,7 @@ body {
   margin-left: 36px;
   font-family: 'Poppins';
   font-style: normal;
+  width: 550px;
 }
 
 .hero-image {
@@ -64,4 +65,11 @@ body {
   line-height: 13px;
   letter-spacing: 0em;
   text-align: left;
+}
+
+.all-cards {
+  display: flex;
+  width: auto;
+  width: 550px;
+  overflow-x: scroll;
 }

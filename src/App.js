@@ -2,21 +2,24 @@ import Nav from './components/navbar';
 import Hero from './components/hero';
 import Card from './components/card';
 import './App.css';
-import image from './images/katie-zaferes.png';
+import data from './data';
 
 function App() {
+  const cardData = data.map(singleCardData => {
+    return <Card
+    coverImg= {singleCardData.coverImg}
+    rating= {singleCardData.stats.rating}
+    reviewCount= {singleCardData.stats.reviewCount}
+    location= {singleCardData.location}
+    title= {singleCardData.title}
+    price= {singleCardData.price}
+     />
+  });
   return (
     <div className="App">
       <Nav />
       <Hero />
-      <Card 
-      img= {image}
-      rating= '5.0'
-      reviewCount= '6'
-      country= 'USA'
-      title= 'Life Lessons with Katie Zaferes'
-      price= '136'
-      />
+      <div className='all-cards'>{cardData}</div>
     </div>
   );
 }
