@@ -42,10 +42,12 @@ body {
 
 .hero-heading {
   margin-bottom: 0;
+  text-align: center;
 }
 
 .hero-content {
   margin-top: 0;
+  text-align: center;
 }
 
 .Card {
@@ -56,6 +58,7 @@ body {
 .Card-image {
   width: 176px;
   height: 235px;
+  border-radius: 10px;
 }
 
 .Card-details {
