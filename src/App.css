@@ -42,21 +42,28 @@ body {
 
 .hero-heading {
   margin-bottom: 0;
-  text-align: center;
+  font-weight: 600;
+  font-size: 36px;
 }
 
 .hero-content {
   margin-top: 0;
-  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+  width: 320px;
 }
 
 .Card {
-  margin-left: 37px;
   margin-top: 49px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 176px;
+  margin-left: 37px;
 }
 
 .Card-image {
-  width: 176px;
+  margin-top: 0;
   height: 235px;
   border-radius: 10px;
 }
@@ -65,14 +72,32 @@ body {
   font-family: Poppins;
   font-size: 12px;
   font-weight: 300;
-  line-height: 13px;
+  line-height: 10px;
   letter-spacing: 0em;
   text-align: left;
+  padding-top: 15px;
 }
 
 .all-cards {
   display: flex;
   width: auto;
-  width: 550px;
-  overflow-x: scroll;
+  align-items: center;
+  margin-top: 0;
+  padding-top: 0;
+  overflow-x: auto;
+}
+
+.Card-badge {
+  border: 1px solid silver;
+  border-radius: 10px;
+  width: 80px;
+  font-weight: bold;
+  background: silver;
+  opacity: 60%;
+  top: 3px;
+  right: 71px;
+  position: absolute;
+  padding: 0 10px;
+
+  
 }
